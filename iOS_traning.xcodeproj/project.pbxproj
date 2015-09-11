@@ -14,6 +14,8 @@
 		659E04F31BA1B5140006F748 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659E04F21BA1B5140006F748 /* Images.xcassets */; };
 		659E04F61BA1B5140006F748 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659E04F41BA1B5140006F748 /* LaunchScreen.xib */; };
 		659E05021BA1B5140006F748 /* iOS_traningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E05011BA1B5140006F748 /* iOS_traningTests.m */; };
+		65BBA4471BA2D8C8009E0DC9 /* PushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BBA4461BA2D8C8009E0DC9 /* PushButton.m */; };
+		65BBA44A1BA2E2E0009E0DC9 /* TwoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BBA4491BA2E2E0009E0DC9 /* TwoTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		659E04FB1BA1B5140006F748 /* iOS_traningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_traningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659E05001BA1B5140006F748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		659E05011BA1B5140006F748 /* iOS_traningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_traningTests.m; sourceTree = "<group>"; };
+		65BBA4451BA2D8C8009E0DC9 /* PushButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushButton.h; sourceTree = "<group>"; };
+		65BBA4461BA2D8C8009E0DC9 /* PushButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushButton.m; sourceTree = "<group>"; };
+		65BBA4481BA2E2E0009E0DC9 /* TwoTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTextView.h; sourceTree = "<group>"; };
+		65BBA4491BA2E2E0009E0DC9 /* TwoTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				659E04EC1BA1B5140006F748 /* ViewController.h */,
 				659E04ED1BA1B5140006F748 /* ViewController.m */,
 				659E04EF1BA1B5140006F748 /* Main.storyboard */,
+				65BBA4481BA2E2E0009E0DC9 /* TwoTextView.h */,
+				65BBA4491BA2E2E0009E0DC9 /* TwoTextView.m */,
+				65BBA4451BA2D8C8009E0DC9 /* PushButton.h */,
+				65BBA4461BA2D8C8009E0DC9 /* PushButton.m */,
 				659E04F21BA1B5140006F748 /* Images.xcassets */,
 				659E04F41BA1B5140006F748 /* LaunchScreen.xib */,
 				659E04E51BA1B5140006F748 /* Supporting Files */,
@@ -221,7 +231,9 @@
 			files = (
 				659E04EE1BA1B5140006F748 /* ViewController.m in Sources */,
 				659E04EB1BA1B5140006F748 /* AppDelegate.m in Sources */,
+				65BBA44A1BA2E2E0009E0DC9 /* TwoTextView.m in Sources */,
 				659E04E81BA1B5140006F748 /* main.m in Sources */,
+				65BBA4471BA2D8C8009E0DC9 /* PushButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				659E05071BA1B5140006F748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		659E05081BA1B5140006F748 /* Build configuration list for PBXNativeTarget "iOS_traningTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				659E050A1BA1B5140006F748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
