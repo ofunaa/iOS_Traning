@@ -10,6 +10,19 @@
 
 @interface ChallengeUI : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIDatePicker *datePicker;
+
+
+
+-(void) challengeUIDatePicker;
+
+-(void) challengeUIActivityIndicatorView;
+
+-(void) challengeUIActionSheet;
+
+-(void) challengeUIDevise;
+
 -(void) challengeUIApplication;
+
 
 @end
