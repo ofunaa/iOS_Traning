@@ -16,6 +16,7 @@
 		659E05021BA1B5140006F748 /* iOS_traningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E05011BA1B5140006F748 /* iOS_traningTests.m */; };
 		65BBA4471BA2D8C8009E0DC9 /* PushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BBA4461BA2D8C8009E0DC9 /* PushButton.m */; };
 		65BBA44A1BA2E2E0009E0DC9 /* TwoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BBA4491BA2E2E0009E0DC9 /* TwoTextView.m */; };
+		65BBA44D1BA3CDFE009E0DC9 /* ChallengeUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BBA44C1BA3CDFE009E0DC9 /* ChallengeUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		65BBA4461BA2D8C8009E0DC9 /* PushButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushButton.m; sourceTree = "<group>"; };
 		65BBA4481BA2E2E0009E0DC9 /* TwoTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTextView.h; sourceTree = "<group>"; };
 		65BBA4491BA2E2E0009E0DC9 /* TwoTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTextView.m; sourceTree = "<group>"; };
+		65BBA44B1BA3CDFE009E0DC9 /* ChallengeUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeUI.h; sourceTree = "<group>"; };
+		65BBA44C1BA3CDFE009E0DC9 /* ChallengeUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeUI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				659E04F21BA1B5140006F748 /* Images.xcassets */,
 				659E04F41BA1B5140006F748 /* LaunchScreen.xib */,
 				659E04E51BA1B5140006F748 /* Supporting Files */,
+				65BBA44B1BA3CDFE009E0DC9 /* ChallengeUI.h */,
+				65BBA44C1BA3CDFE009E0DC9 /* ChallengeUI.m */,
 			);
 			path = iOS_traning;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				659E04EE1BA1B5140006F748 /* ViewController.m in Sources */,
+				65BBA44D1BA3CDFE009E0DC9 /* ChallengeUI.m in Sources */,
 				659E04EB1BA1B5140006F748 /* AppDelegate.m in Sources */,
 				65BBA44A1BA2E2E0009E0DC9 /* TwoTextView.m in Sources */,
 				659E04E81BA1B5140006F748 /* main.m in Sources */,
@@ -356,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOS_traning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -366,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOS_traning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
