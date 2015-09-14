@@ -17,6 +17,9 @@
 		65BBA4471BA2D8C8009E0DC9 /* PushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BBA4461BA2D8C8009E0DC9 /* PushButton.m */; };
 		65BBA44A1BA2E2E0009E0DC9 /* TwoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BBA4491BA2E2E0009E0DC9 /* TwoTextView.m */; };
 		65BBA44D1BA3CDFE009E0DC9 /* ChallengeUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BBA44C1BA3CDFE009E0DC9 /* ChallengeUI.m */; };
+		65BBA44F1BA66765009E0DC9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BBA44E1BA66765009E0DC9 /* 1.png */; };
+		65BBA4521BA66B4F009E0DC9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BBA4501BA66B4F009E0DC9 /* 2.png */; };
+		65BBA4531BA66B4F009E0DC9 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BBA4511BA66B4F009E0DC9 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		65BBA4491BA2E2E0009E0DC9 /* TwoTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTextView.m; sourceTree = "<group>"; };
 		65BBA44B1BA3CDFE009E0DC9 /* ChallengeUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeUI.h; sourceTree = "<group>"; };
 		65BBA44C1BA3CDFE009E0DC9 /* ChallengeUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeUI.m; sourceTree = "<group>"; };
+		65BBA44E1BA66765009E0DC9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = image/1.png; sourceTree = "<group>"; };
+		65BBA4501BA66B4F009E0DC9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = image/2.png; sourceTree = "<group>"; };
+		65BBA4511BA66B4F009E0DC9 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = image/3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		659E04E41BA1B5140006F748 /* iOS_traning */ = {
 			isa = PBXGroup;
 			children = (
+				65BBA44E1BA66765009E0DC9 /* 1.png */,
+				65BBA4501BA66B4F009E0DC9 /* 2.png */,
+				65BBA4511BA66B4F009E0DC9 /* 3.png */,
 				659E04E91BA1B5140006F748 /* AppDelegate.h */,
 				659E04EA1BA1B5140006F748 /* AppDelegate.m */,
 				659E04EC1BA1B5140006F748 /* ViewController.h */,
@@ -215,6 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				659E04F11BA1B5140006F748 /* Main.storyboard in Resources */,
+				65BBA44F1BA66765009E0DC9 /* 1.png in Resources */,
+				65BBA4521BA66B4F009E0DC9 /* 2.png in Resources */,
+				65BBA4531BA66B4F009E0DC9 /* 3.png in Resources */,
 				659E04F61BA1B5140006F748 /* LaunchScreen.xib in Resources */,
 				659E04F31BA1B5140006F748 /* Images.xcassets in Resources */,
 			);

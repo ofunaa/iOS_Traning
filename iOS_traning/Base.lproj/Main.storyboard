@@ -167,9 +167,18 @@
                                     <!--2015-09-14 02:04:29 +0000-->
                                 </date>
                             </datePicker>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xws-CW-46K">
+                                <rect key="frame" x="26" y="10" width="548" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="N9L-RQ-PMp"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Xws-CW-46K" firstAttribute="leading" secondItem="P0Q-4w-DBI" secondAttribute="leadingMargin" constant="10" id="4lK-nk-Xci"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xws-CW-46K" secondAttribute="trailing" constant="10" id="IrN-rY-06C"/>
+                            <constraint firstItem="Xws-CW-46K" firstAttribute="top" secondItem="P0Q-4w-DBI" secondAttribute="topMargin" constant="10" id="JtO-Sh-yvN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nMt-MN-Klv" secondAttribute="trailing" constant="10" id="Nge-WH-H1X"/>
                             <constraint firstItem="nMt-MN-Klv" firstAttribute="leading" secondItem="P0Q-4w-DBI" secondAttribute="leadingMargin" constant="10" id="aHn-Dj-yoq"/>
                             <constraint firstItem="c40-eG-hH2" firstAttribute="top" secondItem="nMt-MN-Klv" secondAttribute="bottom" constant="30" id="sqg-My-iMU"/>
@@ -177,6 +186,7 @@
                     </view>
                     <connections>
                         <outlet property="datePicker" destination="nMt-MN-Klv" id="aBP-3l-rIt"/>
+                        <outlet property="imageView" destination="Xws-CW-46K" id="qYo-mD-GoI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rgo-eC-5py" userLabel="First Responder" sceneMemberID="firstResponder"/>

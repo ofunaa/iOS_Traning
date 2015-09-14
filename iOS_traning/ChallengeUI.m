@@ -13,25 +13,54 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self challengeUIImageView];
     [self challengeUIDatePicker];
     [self challengeUIActivityIndicatorView];
     [self challengeUIDevise];
-//    [self challengeUIApplication];
+  //[self challengeUIApplication];
     
 }
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    
-    
-    
-//    [self challengeUIActionSheet];
+  //[self challengeUIActionSheet];
     
 }
 
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
+
+//UIImageView - 画像の表示・編集・アニメーション
+
+- (void)challengeUIImageView{
+    UIImageView* myImage = self.imageView;
+    myImage.image = [UIImage imageNamed:@"1.png"];
+
+    
+    // アニメーション用画像を配列にセット
+    NSMutableArray *imageList = [NSMutableArray array];
+    for (NSInteger i = 1; i < 4; ++i) {
+        NSString *imagePath = [NSString stringWithFormat:@"%1d.png", (int)i];
+        UIImage *img = [UIImage imageNamed:imagePath];
+        [imageList addObject:img];
+    }
+    
+    // アニメーション用画像をセット
+    myImage.animationImages = imageList;
+    
+    // アニメーションの速度
+    myImage.animationDuration = 10;
+    
+    // アニメーションのリピート回数
+    myImage.animationRepeatCount = 1;
+    
+    [myImage startAnimating];
+}
+
+
+
 ///////////////////////////////////////////////////////
+
 
 //UIDatePicker - 日付・時刻の選択
 
@@ -160,8 +189,7 @@
 
 
 
-//UIImageView - 画像の表示・編集・アニメーション
-//UILabel - 文字の表示（ラベル）
+
 //UINavigationController - 画面推移
 //UIPageControl - ページコントロール
 //UIPickerView - 文字列や数値等の選択（ピッカー）
@@ -172,6 +200,4 @@
 //UISwitch - ON/OFFを切り替えるスイッチ
 //UITabBarController - タブバーによる画面の切り替え
 //UITableViewController - テーブル
-//UITextField - テキストの入力
-//UITextView - 長いテキストの表示と編集
 //UIWebView - Webページの表示
