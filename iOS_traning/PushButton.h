@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 takuji funao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
-@interface PushButton : UIViewController
+@interface PushButton : UIViewController <UITextFieldDelegate>
 
     @property (nonatomic, strong) IBOutlet UILabel *mynameLabel;
     @property (nonatomic, strong) IBOutlet UILabel *textInputLabel;

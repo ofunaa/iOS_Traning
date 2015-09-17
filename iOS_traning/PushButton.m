@@ -12,26 +12,36 @@
 
     - (void)viewDidLoad {
         [super viewDidLoad];
-        self.mynameLabel.text = @"Hello world!";
-        self.textInputLabel.text = @"Hello world!!!!!!!!!!";
         
-        self.textInput.delegate = self;
+        _mynameLabel.text = @"Hello world!";
+        
+        _textInputLabel.text = @"Hello world!!!!!!!!!!";
+    
     }
 
     - (IBAction)buttonTapped:(id)sender{
-        self.mynameLabel.text = @"takuji funao";
+    
+        _mynameLabel.text = @"takuji funao";
+    
     }
 
     - (IBAction)inputButtonTapped:(id)sender{
+    
         NSString* input_text = [[NSString alloc] init];
-        input_text = self.textInput.text;
-        self.textInputLabel.text = input_text;
+        
+        input_text = _textInput.text;
+        
+        _textInputLabel.text = input_text;
+    
     }
 
 
     - (BOOL)textFieldShouldReturn:(UITextField *)textInput {
+    
         [textInput resignFirstResponder];
+        
         return YES;
+    
     }
 
 @end

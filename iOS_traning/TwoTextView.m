@@ -12,9 +12,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+   
     NSString * content = [[NSString alloc] init];
-    content = self.firstTextView.text;
-    self.secondTextView.text = content;
+    
+    content = _firstTextView.text;
+    
+    _secondTextView.text = content;
     
     NSLog(@"文字列のログ%@", content);
     NSLog(@"整数のログ%d", 100);

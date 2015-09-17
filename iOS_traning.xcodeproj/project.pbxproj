@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6547FC981BA6CCE5008BB55C /* ChallengeUI_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6547FC971BA6CCE5008BB55C /* ChallengeUI_2.m */; };
 		659E04E81BA1B5140006F748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E04E71BA1B5140006F748 /* main.m */; };
 		659E04EB1BA1B5140006F748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E04EA1BA1B5140006F748 /* AppDelegate.m */; };
 		659E04EE1BA1B5140006F748 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E04ED1BA1B5140006F748 /* ViewController.m */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6547FC961BA6CCE5008BB55C /* ChallengeUI_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeUI_2.h; sourceTree = "<group>"; };
+		6547FC971BA6CCE5008BB55C /* ChallengeUI_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeUI_2.m; sourceTree = "<group>"; };
 		659E04E21BA1B5140006F748 /* iOS_traning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_traning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659E04E61BA1B5140006F748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		659E04E71BA1B5140006F748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,6 +78,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6547FC991BA70E22008BB55C /* sho-kyu */ = {
+			isa = PBXGroup;
+			children = (
+				65BBA4481BA2E2E0009E0DC9 /* TwoTextView.h */,
+				65BBA4491BA2E2E0009E0DC9 /* TwoTextView.m */,
+				65BBA4451BA2D8C8009E0DC9 /* PushButton.h */,
+				65BBA4461BA2D8C8009E0DC9 /* PushButton.m */,
+			);
+			name = "sho-kyu";
+			sourceTree = "<group>";
+		};
+		6547FC9A1BA70E4B008BB55C /* chu-kyu */ = {
+			isa = PBXGroup;
+			children = (
+				65BBA44B1BA3CDFE009E0DC9 /* ChallengeUI.h */,
+				65BBA44C1BA3CDFE009E0DC9 /* ChallengeUI.m */,
+				6547FC961BA6CCE5008BB55C /* ChallengeUI_2.h */,
+				6547FC971BA6CCE5008BB55C /* ChallengeUI_2.m */,
+			);
+			name = "chu-kyu";
+			sourceTree = "<group>";
+		};
 		659E04D91BA1B5140006F748 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +121,8 @@
 		659E04E41BA1B5140006F748 /* iOS_traning */ = {
 			isa = PBXGroup;
 			children = (
+				6547FC9A1BA70E4B008BB55C /* chu-kyu */,
+				6547FC991BA70E22008BB55C /* sho-kyu */,
 				65BBA44E1BA66765009E0DC9 /* 1.png */,
 				65BBA4501BA66B4F009E0DC9 /* 2.png */,
 				65BBA4511BA66B4F009E0DC9 /* 3.png */,
@@ -104,15 +131,9 @@
 				659E04EC1BA1B5140006F748 /* ViewController.h */,
 				659E04ED1BA1B5140006F748 /* ViewController.m */,
 				659E04EF1BA1B5140006F748 /* Main.storyboard */,
-				65BBA4481BA2E2E0009E0DC9 /* TwoTextView.h */,
-				65BBA4491BA2E2E0009E0DC9 /* TwoTextView.m */,
-				65BBA4451BA2D8C8009E0DC9 /* PushButton.h */,
-				65BBA4461BA2D8C8009E0DC9 /* PushButton.m */,
 				659E04F21BA1B5140006F748 /* Images.xcassets */,
 				659E04F41BA1B5140006F748 /* LaunchScreen.xib */,
 				659E04E51BA1B5140006F748 /* Supporting Files */,
-				65BBA44B1BA3CDFE009E0DC9 /* ChallengeUI.h */,
-				65BBA44C1BA3CDFE009E0DC9 /* ChallengeUI.m */,
 			);
 			path = iOS_traning;
 			sourceTree = "<group>";
@@ -249,6 +270,7 @@
 				659E04EE1BA1B5140006F748 /* ViewController.m in Sources */,
 				65BBA44D1BA3CDFE009E0DC9 /* ChallengeUI.m in Sources */,
 				659E04EB1BA1B5140006F748 /* AppDelegate.m in Sources */,
+				6547FC981BA6CCE5008BB55C /* ChallengeUI_2.m in Sources */,
 				65BBA44A1BA2E2E0009E0DC9 /* TwoTextView.m in Sources */,
 				659E04E81BA1B5140006F748 /* main.m in Sources */,
 				65BBA4471BA2D8C8009E0DC9 /* PushButton.m in Sources */,
