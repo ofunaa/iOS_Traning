@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		653454791BABEB970079C91E /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653454781BABEB970079C91E /* Second.storyboard */; };
+		653454801BABF3750079C91E /* chukyu_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 6534547F1BABF3750079C91E /* chukyu_01.m */; };
 		6547FC981BA6CCE5008BB55C /* ChallengeUI_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6547FC971BA6CCE5008BB55C /* ChallengeUI_2.m */; };
 		6555C67D1BABA30E00F0F2FA /* ChallengeUI_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555C67C1BABA30E00F0F2FA /* ChallengeUI_3.m */; };
 		6555C6861BABBA4D00F0F2FA /* ChallengeUI_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555C6851BABBA4D00F0F2FA /* ChallengeUI_5.m */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		653454781BABEB970079C91E /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		6534547E1BABF3750079C91E /* chukyu_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chukyu_01.h; sourceTree = "<group>"; };
+		6534547F1BABF3750079C91E /* chukyu_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chukyu_01.m; sourceTree = "<group>"; };
 		6547FC961BA6CCE5008BB55C /* ChallengeUI_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeUI_2.h; sourceTree = "<group>"; };
 		6547FC971BA6CCE5008BB55C /* ChallengeUI_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeUI_2.m; sourceTree = "<group>"; };
 		6555C67B1BABA30E00F0F2FA /* ChallengeUI_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeUI_3.h; sourceTree = "<group>"; };
@@ -87,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6534547A1BABEBC40079C91E /* chu-kyu02 */ = {
+			isa = PBXGroup;
+			children = (
+				6534547E1BABF3750079C91E /* chukyu_01.h */,
+				6534547F1BABF3750079C91E /* chukyu_01.m */,
+			);
+			name = "chu-kyu02";
+			sourceTree = "<group>";
+		};
 		6547FC991BA70E22008BB55C /* sho-kyu */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,7 +112,7 @@
 			name = "sho-kyu";
 			sourceTree = "<group>";
 		};
-		6547FC9A1BA70E4B008BB55C /* chu-kyu */ = {
+		6547FC9A1BA70E4B008BB55C /* chu-kyu01 */ = {
 			isa = PBXGroup;
 			children = (
 				65BBA44B1BA3CDFE009E0DC9 /* ChallengeUI.h */,
@@ -112,7 +126,7 @@
 				6555C6841BABBA4D00F0F2FA /* ChallengeUI_5.h */,
 				6555C6851BABBA4D00F0F2FA /* ChallengeUI_5.m */,
 			);
-			name = "chu-kyu";
+			name = "chu-kyu01";
 			sourceTree = "<group>";
 		};
 		659E04D91BA1B5140006F748 = {
@@ -136,7 +150,8 @@
 		659E04E41BA1B5140006F748 /* iOS_traning */ = {
 			isa = PBXGroup;
 			children = (
-				6547FC9A1BA70E4B008BB55C /* chu-kyu */,
+				6534547A1BABEBC40079C91E /* chu-kyu02 */,
+				6547FC9A1BA70E4B008BB55C /* chu-kyu01 */,
 				6547FC991BA70E22008BB55C /* sho-kyu */,
 				65BBA44E1BA66765009E0DC9 /* 1.png */,
 				65BBA4501BA66B4F009E0DC9 /* 2.png */,
@@ -146,6 +161,7 @@
 				659E04EC1BA1B5140006F748 /* ViewController.h */,
 				659E04ED1BA1B5140006F748 /* ViewController.m */,
 				659E04EF1BA1B5140006F748 /* Main.storyboard */,
+				653454781BABEB970079C91E /* Second.storyboard */,
 				659E04F21BA1B5140006F748 /* Images.xcassets */,
 				659E04F41BA1B5140006F748 /* LaunchScreen.xib */,
 				659E04E51BA1B5140006F748 /* Supporting Files */,
@@ -265,6 +281,7 @@
 				65BBA4531BA66B4F009E0DC9 /* 3.png in Resources */,
 				659E04F61BA1B5140006F748 /* LaunchScreen.xib in Resources */,
 				659E04F31BA1B5140006F748 /* Images.xcassets in Resources */,
+				653454791BABEB970079C91E /* Second.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				659E04EE1BA1B5140006F748 /* ViewController.m in Sources */,
+				653454801BABF3750079C91E /* chukyu_01.m in Sources */,
 				65BBA44D1BA3CDFE009E0DC9 /* ChallengeUI.m in Sources */,
 				659E04EB1BA1B5140006F748 /* AppDelegate.m in Sources */,
 				6547FC981BA6CCE5008BB55C /* ChallengeUI_2.m in Sources */,
