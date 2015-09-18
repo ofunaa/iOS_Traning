@@ -16,6 +16,8 @@
 
 - (IBAction)pageControl:(id)sender;
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView;
+
 - (IBAction)ChallengeUITapGesture:(id)sender;
 
 - (void)ChallengeUIScrollView;

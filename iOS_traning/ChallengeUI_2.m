@@ -8,42 +8,25 @@
 
 #import "ChallengeUI_2.h"
 
-#define pageCount 3
-
 @implementation ChallengeUI_2
 
 
+- (void)viewDidLoad{
+    
+    [super viewDidLoad];
+    
+    [self.view addSubview:_pageControl];
+    
+    self.scrollView.delegate = self;
+    
+    [_pageControl addTarget:self action:@selector(pageControl:) forControlEvents:UIControlEventValueChanged];
+    
+}
 
-
-- (void)viewDidload{
+- (void)viewDidAppear:(BOOL)animated{
+    
     [self ChallengeUIScrollView];
-//    [self ChallengeUINavigation];
-//    [self ChallengeUIPageControl];
-//    [self ChallengeUIPickerView];
-//    [self ChallengeUIProgress];
     
-}
-
-
-- (IBAction)pageControl:(id)sender {
-    
-    CGRect frame = _scrollView.frame;
-    
-    frame.origin.x = frame.size.width * _pageControl.currentPage;
-    
-    frame.origin.y = 0;
-    
-    [_scrollView scrollRectToVisible:frame animated:YES];
-
-}
-
-
-- (void)scrollViewDidScroll:(UIScrollView *)sender{
-    
-    CGFloat pageWidth = _scrollView.frame.size.width;
-    
-    _pageControl.currentPage = floor((_scrollView.contentOffset.x - pageWidth / 2) / pageWidth ) + 1;
-
 }
 
 
@@ -58,11 +41,13 @@
     
     _scrollView.pagingEnabled = YES;
     
+    int pageCount = 5;
+    
     _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width * pageCount, self.scrollView.frame.size.height);
     
     for (int i = 0; i < pageCount; i++) {
     
-        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(i * _scrollView.frame.size.width, _scrollView.frame.size.height/2, _scrollView.frame.size.width, _scrollView.frame.size.height)];
+        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(i * _scrollView.frame.size.width, 0, _scrollView.frame.size.width , _scrollView.frame.size.height)];
         
         label.text = [NSString stringWithFormat:@"%d", i + 1];
         
@@ -76,6 +61,7 @@
     
     }
     
+    
     _scrollView.showsHorizontalScrollIndicator = NO;
     
     _scrollView.showsVerticalScrollIndicator = NO;
@@ -85,6 +71,30 @@
     _pageControl.currentPage = 0;
 
 }
+
+
+- (IBAction)pageControl:(id)sender {
+    
+    CGRect frame = _scrollView.frame;
+    
+    frame.origin.x = frame.size.width * _pageControl.currentPage;
+    
+    frame.origin.y = 0;
+    
+    [_scrollView scrollRectToVisible:frame animated:YES];
+    
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    
+    CGFloat pageWidth = scrollView.frame.size.width;
+    if ((NSInteger)fmod(scrollView.contentOffset.x , pageWidth) == 0) {
+        // ページコントロールに現在のページを設定
+        _pageControl.currentPage = scrollView.contentOffset.x / pageWidth;
+    }
+    
+}
+
 
 - (void)ChallengeUIPickerView{
     
@@ -99,3 +109,10 @@
 }
 
 @end
+
+//UISegmentedControl - 複数の選択肢から一つを選択
+//UISlider - スライダー
+//UISwitch - ON/OFFを切り替えるスイッチ
+//UITabBarController - タブバーによる画面の切り替え
+//UITableViewController - テーブル
+//UIWebView - Webページの表示

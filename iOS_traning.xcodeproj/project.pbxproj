@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6547FC981BA6CCE5008BB55C /* ChallengeUI_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6547FC971BA6CCE5008BB55C /* ChallengeUI_2.m */; };
+		6555C67D1BABA30E00F0F2FA /* ChallengeUI_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555C67C1BABA30E00F0F2FA /* ChallengeUI_3.m */; };
+		6555C6861BABBA4D00F0F2FA /* ChallengeUI_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555C6851BABBA4D00F0F2FA /* ChallengeUI_5.m */; };
+		6555C6891BABE08B00F0F2FA /* ChallengeUI_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555C6881BABE08B00F0F2FA /* ChallengeUI_4.m */; };
 		659E04E81BA1B5140006F748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E04E71BA1B5140006F748 /* main.m */; };
 		659E04EB1BA1B5140006F748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E04EA1BA1B5140006F748 /* AppDelegate.m */; };
 		659E04EE1BA1B5140006F748 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E04ED1BA1B5140006F748 /* ViewController.m */; };
@@ -36,6 +39,12 @@
 /* Begin PBXFileReference section */
 		6547FC961BA6CCE5008BB55C /* ChallengeUI_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeUI_2.h; sourceTree = "<group>"; };
 		6547FC971BA6CCE5008BB55C /* ChallengeUI_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeUI_2.m; sourceTree = "<group>"; };
+		6555C67B1BABA30E00F0F2FA /* ChallengeUI_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeUI_3.h; sourceTree = "<group>"; };
+		6555C67C1BABA30E00F0F2FA /* ChallengeUI_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeUI_3.m; sourceTree = "<group>"; };
+		6555C6841BABBA4D00F0F2FA /* ChallengeUI_5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeUI_5.h; sourceTree = "<group>"; };
+		6555C6851BABBA4D00F0F2FA /* ChallengeUI_5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeUI_5.m; sourceTree = "<group>"; };
+		6555C6871BABE08B00F0F2FA /* ChallengeUI_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeUI_4.h; sourceTree = "<group>"; };
+		6555C6881BABE08B00F0F2FA /* ChallengeUI_4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeUI_4.m; sourceTree = "<group>"; };
 		659E04E21BA1B5140006F748 /* iOS_traning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_traning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659E04E61BA1B5140006F748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		659E04E71BA1B5140006F748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +105,12 @@
 				65BBA44C1BA3CDFE009E0DC9 /* ChallengeUI.m */,
 				6547FC961BA6CCE5008BB55C /* ChallengeUI_2.h */,
 				6547FC971BA6CCE5008BB55C /* ChallengeUI_2.m */,
+				6555C67B1BABA30E00F0F2FA /* ChallengeUI_3.h */,
+				6555C67C1BABA30E00F0F2FA /* ChallengeUI_3.m */,
+				6555C6871BABE08B00F0F2FA /* ChallengeUI_4.h */,
+				6555C6881BABE08B00F0F2FA /* ChallengeUI_4.m */,
+				6555C6841BABBA4D00F0F2FA /* ChallengeUI_5.h */,
+				6555C6851BABBA4D00F0F2FA /* ChallengeUI_5.m */,
 			);
 			name = "chu-kyu";
 			sourceTree = "<group>";
@@ -272,6 +287,9 @@
 				659E04EB1BA1B5140006F748 /* AppDelegate.m in Sources */,
 				6547FC981BA6CCE5008BB55C /* ChallengeUI_2.m in Sources */,
 				65BBA44A1BA2E2E0009E0DC9 /* TwoTextView.m in Sources */,
+				6555C67D1BABA30E00F0F2FA /* ChallengeUI_3.m in Sources */,
+				6555C6891BABE08B00F0F2FA /* ChallengeUI_4.m in Sources */,
+				6555C6861BABBA4D00F0F2FA /* ChallengeUI_5.m in Sources */,
 				659E04E81BA1B5140006F748 /* main.m in Sources */,
 				65BBA4471BA2D8C8009E0DC9 /* PushButton.m in Sources */,
 			);

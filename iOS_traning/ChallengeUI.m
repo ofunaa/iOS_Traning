@@ -107,11 +107,11 @@
     
     UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc]initWithFrame:rect];
     
-    indicator.center = _view.center;
+    indicator.center = self.view.center;
     
     indicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
     
-    [_view addSubview:indicator];
+    [self.view addSubview:indicator];
     
     [indicator startAnimating];
     
